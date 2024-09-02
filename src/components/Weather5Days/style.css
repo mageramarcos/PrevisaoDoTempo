@@ -1,36 +1,32 @@
 .weather5Days-container{
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 10px;
+h3{
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    }
+    background: linear-gradient(to right,rgba(255,255,255,0.8),rgba(142, 205, 241, 0.8));
+}
+
+.wather-list{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+gap: 10px;
+padding: 5px;
+
+}
+
+.weather-item{
+text-align: center;
 background-color: rgba(255,255,255,0.8);
 border-radius: 10px;
-margin: 20px 0;
-padding: 20px;
+padding: 10px;
+background: linear-gradient(to right,rgba(255,255,255,0.8),rgba(142, 205, 241, 0.8));
 }
 
-h2{
-    font-size: 2rem;
-}
-
-.weather-info{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    img{
-        width: 100px;
-    }
-}
-
-.temperature{
-font-size: 2.5rem;
-font-weight: bold;
-}
-
-.description{
-    text-transform: capitalize;
-    font-size: 1.3rem;
-    margin-bottom: 10px;
-}
-
-.details{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.forecast-day, .forecast-description {
+text-transform: capitalize;
+font-size: 1rem;    
 }
